@@ -10,7 +10,7 @@ public class Cart {
     customerId = cid;
     }
     else{
-        System.out.println("Customer ID sould be positive");
+        customerId = Math.abs(cid);
     }
     }
     public int getcustomerId(){
