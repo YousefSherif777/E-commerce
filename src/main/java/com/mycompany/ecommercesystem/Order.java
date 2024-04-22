@@ -2,7 +2,7 @@ package com.mycompany.ecommercesystem;
 public class Order {
    protected int customerId;
    protected int OrderId;
-   float TotalPrice;
+   protected float TotalPrice;
    public Order(){
    }
 
