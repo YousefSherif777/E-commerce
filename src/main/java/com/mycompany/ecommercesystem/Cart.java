@@ -1,8 +1,8 @@
 package com.mycompany.ecommercesystem;
 import java.util.Scanner;
 public class Cart {
-   int customerId;
-    int nproducts;
+   protected int customerId;
+   protected int nproducts;
     static Scanner input = new Scanner(System.in);
     int c;
     public void setcustomerId(int cid){
