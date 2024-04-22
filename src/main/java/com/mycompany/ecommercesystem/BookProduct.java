@@ -1,7 +1,7 @@
 package com.mycompany.ecommercesystem;
 public class BookProduct extends Product{
-    String author;
-    String publisher;
+   private String author;
+   private String publisher;
     public BookProduct(String n , int id, float p, String a,String pu){
     name = n;
     productId =id;
