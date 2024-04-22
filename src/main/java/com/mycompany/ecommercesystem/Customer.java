@@ -1,8 +1,8 @@
 package com.mycompany.ecommercesystem;
 public class Customer {
-    int customerId;
-    String name;
-    String address;
+   protected int customerId;
+   protected String name;
+   protected String address;
     public void setcustomerId(int cid){
     if(cid>0){
     customerId = cid;
