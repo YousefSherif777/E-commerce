@@ -1,8 +1,8 @@
 package com.mycompany.ecommercesystem;
 public class Product {
-    int productId;
-    String name;
-    float price;
+   protected int productId;
+   protected String name;
+   protected float price;
     public Product(){}
     public Product(String n , int id, float p){
     name = n;
