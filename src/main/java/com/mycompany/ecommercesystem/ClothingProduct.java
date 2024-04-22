@@ -1,7 +1,7 @@
 package com.mycompany.ecommercesystem;
 public class ClothingProduct extends Product{
-    String size;
-    String fabric;
+   private String size;
+   private String fabric;
     public ClothingProduct(String n , int id, float p,String s,String f){
     name = n;
     productId =id;
