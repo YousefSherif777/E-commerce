@@ -1,7 +1,7 @@
 package com.mycompany.ecommercesystem;
 public class ElectronicProduct extends Product{
-    String brand;
-    int warrantyPeriod;
+   private String brand;
+   private int warrantyPeriod;
     public ElectronicProduct(String n , int id, float p,String b, int wp){
     name = n;
     productId =id;
